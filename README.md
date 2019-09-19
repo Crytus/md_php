@@ -33,19 +33,20 @@ PHPのプログラムを作成しました。
 PHP Markdown Libとgenerate-github-markdown-cssが必要です。
 それぞれダウンロードして、md.phpと同じディレクトリに置いて起きます。
 
-<p>
-・PHP Markdown Lib 1.8.0 - 14 Jan 2018<br>
-by Michel Fortin<br>
-<a href="https://michelf.ca/">https://michelf.ca/</a><br>
-</p>
-<p>
-・generate-github-markdown-css<br>
-by Sindre Sorhus<br>
-<a href="https://github.com/sindresorhus/generate-github-markdown-css">https://github.com/sindresorhus/generate-github-markdown-css</a>
-</p>
+```
+css/github-markdown.css
+Michelf/･･･
+```
 
 自分のサーバー環境に合わせて、.htaccessを編集して設置します。
 多くのレンタルサーバーの場合は、オリジナルのままで良いと思います。
+
+HTMLを出力するテンプレートファイルを用意します。
+template.htmlを参考に作成してください。
+このファイルは、md.phpと同じディレクトリに置いておきます。
+
+また、出力のディレクトリ階層が異なる場合、そのディレクトリに存在するtemplate.htmlが優先して使用されます。
+これにより、記事グループごとにHTMLのデザインを変えることが可能です。
 
 ### 出力する方法
 
