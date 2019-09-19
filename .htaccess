@@ -1,0 +1,9 @@
+#AddType text/markdown md
+#Action text/markdown /md.php
+
+#AddType text/wiki wiki
+#Action text/wiki /wiki.php
+
+RewriteEngine on
+RewriteRule ^(.+\.wiki)$ /wiki.php?f=$1 [L]
+RewriteRule ^(.+\.md)$ /md.php?f=$1 [L]
