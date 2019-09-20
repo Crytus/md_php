@@ -9,11 +9,11 @@ Markdownを使用してページを出力するプログラムmd.phpについて
 
 次のツールとCSSを使用しました。
 
-*	・PHP Markdown Lib 1.8.0 - 14 Jan 2018<br>
+*	PHP Markdown Lib 1.8.0 - 14 Jan 2018<br>
 by Michel Fortin<br>
 <a href="https://michelf.ca/">https://michelf.ca/</a>
 
-*	・generate-github-markdown-css<br>
+*	generate-github-markdown-css<br>
 by Sindre Sorhus<br>
 <a href="https://github.com/sindresorhus/generate-github-markdown-css">https://github.com/sindresorhus/generate-github-markdown-css</a>
 
